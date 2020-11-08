@@ -38,12 +38,13 @@ public class Main {
                     account.withdraw(amount);
                     break;
                 case 4:
+                    account.showTransactions();
                     break;
                 case 5:
                     System.out.println("Bye, Thank you");
                     break;
                 default:
-                    System.out.println("Duzgun secim etmediniz!");
+                    System.out.println("Enter correct choose!");
             }
 
         } while (option != 5);

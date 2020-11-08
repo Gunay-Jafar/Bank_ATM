@@ -11,4 +11,8 @@ public class Transaction {
         this.type = type;
         this.dateTime = dateTime;
     }
+
+    public String toString(){
+        return amount+" "+type+" "+dateTime;
+    }
 }
